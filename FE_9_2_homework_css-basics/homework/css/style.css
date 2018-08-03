@@ -1,0 +1,161 @@
+/*
+
+write your code here
+
+*/
+@media print {
+     /* Style for printing */
+     .tm-sidebar{
+       display: none;
+     }
+
+     .gallery-container, .heading, .blocks, .img-fluid{
+       display: none;
+     }
+     #ideas, #contact{
+       display: none;
+     }
+
+
+     body {
+         background: transparent;
+         padding-top: 0;
+     }
+
+
+
+     .tm-main-content {
+         margin-left: 0;
+         padding-left: 0;
+     }
+
+     .tm-banner {
+         height: 200px;
+         padding: unset;
+     }
+
+     .pad {
+         padding: 0 0 0 20px;
+     }
+
+     h2.tm-section-title {
+         color: blue;
+     }
+
+     .flex-2-col {
+         display: block;
+     }
+
+     .tm-team-description-container {
+         max-width: none;
+     }
+
+     .flex-item:last-child {
+         text-align: center;
+     }
+   }
+
+   @media screen {
+
+.thumbnail{
+  border-radius: 100px;
+}
+.tm-box-bg-title:hover{
+  background:#31b0d5;
+  color:white;
+}
+
+p::first-letter{
+  color: #76cdd7;
+  font-size: 30px;
+}
+.tm-nav-item, .tm-content-box{
+  box-shadow:  0px -1px 2px 0px #000000;
+}
+.tm-content-box:not(:empty)::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-top: 29px solid #2aabd2;
+        border-right: 130px solid transparent;
+
+    }
+    .tm-section-title{
+      color:#dcdcdc;
+      letter-spacing: 5px;
+    }
+    p:not(.tm-banner-text) {
+       line-height: 2em;
+       text-indent: 1em;
+   }
+   .heading h2 {
+       text-align: center;
+       color: #76cdd7;
+   }
+
+   .pad ol a {
+       color: black;
+   }
+
+   .pad ol a:visited {
+       color: silver;
+   }
+
+   .pad ol a:hover {
+       color: #76cdd7;
+       text-decoration: underline double;
+   }
+
+   .pad ol a.text::after {
+       content: "New";
+       color: red;
+       font-size: .7em;
+       vertical-align: super;
+   }
+   .boxes.gallery-container div > h2{
+       font-size: 2.8em;
+       border-bottom: 30px;
+   }
+   .gallery-container .box:nth-child(odd) {
+       background-color: whitesmoke;
+   }
+
+
+
+   .boxes.gallery-container .box p:first-letter {
+       color: black;
+   }
+
+   .tm-box-bg-title {
+       background-color: white;
+   }
+   .boxes.gallery-container .box p {
+       font-size: 1.5em;
+       line-height: 1.6em;
+       text-indent: initial;
+       color: black;
+   }
+
+
+    h2 + p {
+      font-style: italic;
+    }
+
+    .tm-nav-item:not(:last-of-type) {
+          border-bottom: silver 2px dotted;}
+    .contact-form input,
+      .contact-form button {
+          color: red;}
+      .mandatory-field::after {
+          content: "*";
+          color: red;
+          font-weight: bold;
+      }.submit-btn:hover {
+          color: white;
+          background: #76cdd7;
+          border-color: transparent;
+      }
+   }
