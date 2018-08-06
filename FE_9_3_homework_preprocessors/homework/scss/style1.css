@@ -1,0 +1,111 @@
+body {
+  background: white; }
+
+.main-wrapper {
+  width: 1000px;
+  margin: auto;
+  box-sizing: border-box;
+  font-family: Georgia;
+  background: white; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 250px; }
+
+.logo {
+  width: 350px;
+  height: 350px; }
+  .logo img {
+    width: 350px;
+    height: auto; }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+  height: 25px;
+  padding: 10px;
+  margin-top: 150px;
+  border-top: 1px solid #b0bec4;
+  border-bottom: 1px solid #b0bec4; }
+  nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1697a6; }
+
+.toolbar {
+  float: right;
+  margin-bottom: 50px;
+  clear: both; }
+  .toolbar input {
+    height: 25px;
+    width: 200px;
+    padding-left: 10px;
+    color: #1697a6;
+    font-size: 15px;
+    border: 1px solid #1697a6; }
+
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px; }
+  .post-list article {
+    width: 475px;
+    height: 600px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background: #efefef; }
+    .post-list article img {
+      width: 475px;
+      height: 350px; }
+    .post-list article .post-description {
+      color: #7aa4b6;
+      border-bottom: 1px solid black;
+      padding-bottom: 5px; }
+    .post-list article h3 {
+      color: #1697a6;
+      text-transform: uppercase;
+      margin: 5px; }
+
+.about {
+  margin-top: 50px; }
+  .about h1 {
+    text-transform: uppercase;
+    color: #1697a6;
+    text-align: right; }
+  .about p {
+    color: #7aa4b6;
+    line-height: 1.5; }
+  .about img {
+    margin-top: 20px;
+    width: 1000px; }
+
+input {
+  width: 100%;
+  height: 35px;
+  margin-top: 20px;
+  padding-left: 10px; }
+
+button {
+  float: right;
+  width: 175px;
+  height: 35px;
+  color: white;
+  background: #1fbcd3;
+  margin-top: 5px; }
+
+.contact-form h1 {
+  text-align: right;
+  color: #1fbcd3; }
+.contact-form h4 {
+  text-align: right;
+  text-transform: uppercase;
+  color: #1fbcd3; }
+
+footer {
+  color: #7aa4b6; }
+
+/*# sourceMappingURL=style1.css.map */
